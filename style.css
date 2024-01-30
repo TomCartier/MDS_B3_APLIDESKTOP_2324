@@ -1,0 +1,22 @@
+.accounts th{
+    border-bottom: 2px solid black;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.accounts{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.accounts input{
+    width: 95%;
+}
+
+.accounts td{
+    border-bottom: 1px solid grey;
+    padding: 10px 0px;
+}
+
+
