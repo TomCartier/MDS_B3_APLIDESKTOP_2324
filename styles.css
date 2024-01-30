@@ -14,7 +14,7 @@ button{
     border-radius: 5px;
 }
 
-.start{
+.btn-green{
     background-color: green;
 }
 
@@ -23,9 +23,6 @@ button{
 }
 .without{
     background-color: red;
-}
-.with{
-    background-color: green;
 }
 
 .stats{
@@ -39,4 +36,45 @@ button{
     background-color: grey;
     border-radius: 5px;
     margin-left: 10px;
+}
+
+.separationInformation{
+    border: 2 px solid;
+}
+
+.tableauInfo{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.connectionInformation
+{
+    width: 10%;
+}
+
+.onlineInformation
+{
+    background-color: greenyellow;
+}
+
+.accounts_table th{
+    border-bottom: 2px solid black;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.accounts_table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.accounts_table input{
+    width: 95%;
+}
+
+.accounts_table td{
+    border-bottom: 1px solid grey;
+    padding: 10px 0px;
 }

@@ -9,10 +9,37 @@
   <body>
     <header></header>
     <main>
-      <section class="infos"></section>
+      <section class="infos">
+        <div>
+          <h2 class="heading">Informations</h2>
+          <table class="tableauInfo">
+            <thead>
+              <tr>
+                <th class="connectionInformation">internet</th>
+                <th>activation key</th>
+                <th>show accounts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="onlineInformation">online</th>
+                <th>inactive - scanner slowed</th>
+                <th><button class="btn-green">YES</button></th>
+              </tr>
+            </tbody>
+          </table>
+          <hr class="separationInformation" />
+
+          <form>
+            <input type="text" name="" id="" /><button class="btn-green">
+              set key
+            </button>
+          </form>
+        </div>
+      </section>
       <section class="scanner">
         <h2 class="heading">Scanner</h2>
-        <button class="start">START</button>
+        <button class="start btn-green">START</button>
         <div class="stats">
           <h2 class="heading">Stats</h2>
           <i>(transactions are only working with an activation key)</i>
@@ -24,12 +51,26 @@
           <button class="without">
             without transactions<span class="without_count count">0</span>
           </button>
-          <button class="with">
+          <button class="with btn-green">
             with transactions<span class="with_count count">0</span>
           </button>
         </div>
       </section>
-      <section class="accounts"></section>
+      <section class="accounts">
+        <h2 class="heading">Accounts</h2>
+        <table class="accounts_table">
+          <tr>
+            <th>passphrase</th>
+            <th>wallet</th>
+            <th>transactions</th>
+          </tr>
+          <tr>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+          </tr>
+        </table>
+      </section>
     </main>
     <footer></footer>
   </body>
